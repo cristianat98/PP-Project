@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{29AE9A24-1C6C-4FAE-ADE3-856341D65F19}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FormsProjecte</RootNamespace>
+    <AssemblyName>WindowsFormsApplication1</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AñadirAerolinea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AñadirAerolinea.Designer.cs">
+      <DependentUpon>AñadirAerolinea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AñadirCiudad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AñadirCiudad.Designer.cs">
+      <DependentUpon>AñadirCiudad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AñadirSector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AñadirSector.Designer.cs">
+      <DependentUpon>AñadirSector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AñadirVuelos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AñadirVuelos.Designer.cs">
+      <DependentUpon>AñadirVuelos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cerrar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cerrar.Designer.cs">
+      <DependentUpon>Cerrar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ciclo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ciclo.Designer.cs">
+      <DependentUpon>Ciclo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatosAvion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DatosAvion.Designer.cs">
+      <DependentUpon>DatosAvion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatosSector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DatosSector.Designer.cs">
+      <DependentUpon>DatosSector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ElegirSector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ElegirSector.Designer.cs">
+      <DependentUpon>ElegirSector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GuardarCiudad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GuardarCiudad.Designer.cs">
+      <DependentUpon>GuardarCiudad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModificarAerolinea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModificarAerolinea.Designer.cs">
+      <DependentUpon>ModificarAerolinea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SeleccionarAerolinea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeleccionarAerolinea.Designer.cs">
+      <DependentUpon>SeleccionarAerolinea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Error.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Error.Designer.cs">
+      <DependentUpon>Error.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Instrucciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Instrucciones.Designer.cs">
+      <DependentUpon>Instrucciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Infoautores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Infoautores.Designer.cs">
+      <DependentUpon>Infoautores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Infofunciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Infofunciones.Designer.cs">
+      <DependentUpon>Infofunciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MisDatos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MisDatos.Designer.cs">
+      <DependentUpon>MisDatos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModificarAvion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModificarAvion.Designer.cs">
+      <DependentUpon>ModificarAvion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModificarSector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModificarSector.Designer.cs">
+      <DependentUpon>ModificarSector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MostrarVuelos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MostrarVuelos.Designer.cs">
+      <DependentUpon>MostrarVuelos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SeleccionarAviones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeleccionarAviones.Designer.cs">
+      <DependentUpon>SeleccionarAviones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Simulacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Simulacion.Designer.cs">
+      <DependentUpon>Simulacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Solucion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Solucion.Designer.cs">
+      <DependentUpon>Solucion.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AñadirAerolinea.resx">
+      <DependentUpon>AñadirAerolinea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AñadirCiudad.resx">
+      <DependentUpon>AñadirCiudad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AñadirSector.resx">
+      <DependentUpon>AñadirSector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AñadirVuelos.resx">
+      <DependentUpon>AñadirVuelos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cerrar.resx">
+      <DependentUpon>Cerrar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ciclo.resx">
+      <DependentUpon>Ciclo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatosAvion.resx">
+      <DependentUpon>DatosAvion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatosSector.resx">
+      <DependentUpon>DatosSector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ElegirSector.resx">
+      <DependentUpon>ElegirSector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GuardarCiudad.resx">
+      <DependentUpon>GuardarCiudad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificarAerolinea.resx">
+      <DependentUpon>ModificarAerolinea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeleccionarAerolinea.resx">
+      <DependentUpon>SeleccionarAerolinea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Error.resx">
+      <DependentUpon>Error.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Infoautores.resx">
+      <DependentUpon>Infoautores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Infofunciones.resx">
+      <DependentUpon>Infofunciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="instrucciones.resx">
+      <DependentUpon>Instrucciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MisDatos.resx">
+      <DependentUpon>MisDatos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificarAvion.resx">
+      <DependentUpon>ModificarAvion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificarSector.resx">
+      <DependentUpon>ModificarSector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MostrarVuelos.resx">
+      <DependentUpon>MostrarVuelos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SeleccionarAviones.resx">
+      <DependentUpon>SeleccionarAviones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Simulacion.resx">
+      <DependentUpon>Simulacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Solucion.resx">
+      <DependentUpon>Solucion.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClasesProyecto\ClasesProyecto.csproj">
+      <Project>{261927AF-E656-43FA-B772-8BCE67686BA1}</Project>
+      <Name>ClasesProyecto</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Gestion\Gestion.csproj">
+      <Project>{1D38DAC5-E195-42F8-BB90-1164D8F3DC5C}</Project>
+      <Name>Gestion</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20171214_125231.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20171214_125231_opt.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
